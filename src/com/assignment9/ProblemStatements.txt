@@ -1,0 +1,26 @@
+Problem 1: String Manipulation
+
+Write a Java program that takes a user input string and then performs the following operations:
+
+Print the length of the string.
+Convert the string to uppercase and print it.
+Check if the string contains the word "Java" (case-insensitive) and print "Contains 'Java'" or "Does not contain 'Java'" accordingly.
+
+
+
+Problem 2: Array Sum and Average
+
+Create an array of integers in Java. Calculate and print the sum of all the elements in the array.
+Then, calculate and print the average of the elements.
+
+
+Problem 3: Type Casting and Conditional Statements
+
+Write a Java program that takes a user input number (a floating-point number) and does the following:
+If the number is greater than or equal to 10, cast it to an integer and print "Integer part: [integer value]."
+If the number is less than 10, cast it to an integer and print "Rounded to the nearest integer: [integer value]."
+
+
+These problems will help you practice working with strings, arrays, type casting, conditional statements, and basic user input in Java.
+
+Day 6

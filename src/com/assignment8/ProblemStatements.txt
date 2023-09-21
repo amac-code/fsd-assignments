@@ -1,0 +1,15 @@
+Problem 1: Write a function that takes two integers as input and returns their sum.
+
+Problem 2: Create a method that accepts a list of numbers and returns the largest number in the list.
+
+Problem 3: Implement a function that reverses a given string and returns the reversed string.
+
+Problem 4: Write a program that uses a list to store user names.
+           Implement a method to add a new name to the list, and another method to check if a given name exists in the list.
+           If the name exists, return "Name found," otherwise return "Name not found."
+
+These problems cover the basics of methods, data passing, returning values, and working with different data types,
+helping you practice and reinforce your understanding of these concepts.
+
+
+Day 5
