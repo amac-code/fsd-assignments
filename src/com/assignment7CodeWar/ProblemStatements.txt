@@ -1,0 +1,7 @@
+CodeWar Questions:-
+
+1. https://www.codewars.com/kata/58649884a1659ed6cb000072/train/java
+
+2. https://www.codewars.com/kata/563e320cee5dddcf77000158/train/java
+
+3. https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/java
