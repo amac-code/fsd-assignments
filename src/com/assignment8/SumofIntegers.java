@@ -1,6 +1,5 @@
 package com.assignment8;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 //Problem 1: Write a function that takes two integers as input and returns their sum.

@@ -12,7 +12,7 @@ public class Usernames {
         Scanner sc = new Scanner(System.in);
         ArrayList<String> usernames = new ArrayList<>();
 
-        System.out.print("How many names do you want to enter?: ");
+        System.out.print("How many usernames do you want to enter?: ");
         int num = sc.nextInt();
         sc.nextLine(); // Consume the newline character
 
@@ -20,7 +20,7 @@ public class Usernames {
         addNewNames(usernames, num);
 
         // Checking for existing names
-        System.out.print("Enter the name you want to search for: ");
+        System.out.print("Enter the username you want to search for: ");
         String searchName = sc.nextLine();
         String result = checkName(usernames, searchName);
         System.out.println(result);
@@ -29,7 +29,7 @@ public class Usernames {
     public static void addNewNames(ArrayList<String> usernames, int num) {
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < num; i++) {
-            System.out.print("Enter name " + (i + 1) + ": ");
+            System.out.print("Enter username " + (i + 1) + ": ");
             String name = sc.nextLine();
             usernames.add(name);
         }
