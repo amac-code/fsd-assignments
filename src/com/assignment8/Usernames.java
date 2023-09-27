@@ -24,6 +24,7 @@ public class Usernames {
         String searchName = sc.nextLine();
         String result = checkName(usernames, searchName);
         System.out.println(result);
+        sc.close();
     }
 
     public static void addNewNames(ArrayList<String> usernames, int num) {
@@ -33,6 +34,7 @@ public class Usernames {
             String name = sc.nextLine();
             usernames.add(name);
         }
+        sc.close();
     }
 
     public static String checkName(ArrayList<String> usernames, String searchName) {
@@ -42,4 +44,5 @@ public class Usernames {
             return "Name not found";
         }
     }
+    
 }

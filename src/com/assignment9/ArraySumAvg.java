@@ -31,6 +31,7 @@ public class ArraySumAvg {
         System.out.println("Sum of all the numbers in this array is: " + sum);
         int avg = sum / n;
         System.out.println("Average of all the numbers is: " + avg);
+        sc.close();
     }
 
 }

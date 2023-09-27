@@ -13,6 +13,7 @@ public class SumofIntegers {
 
         int result = sum(a,b);
         System.out.println("Sum of " + a + " and " + b + " is: " + result);
+        sc.close();
     }
 
     public static int sum(int a, int b){

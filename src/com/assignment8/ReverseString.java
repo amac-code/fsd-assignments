@@ -14,6 +14,7 @@ public class ReverseString {
         String reversed = reversedString(original);
         System.out.println("Original String is: " + original);
         System.out.println("Reversed String is: " + reversed);
+        sc.close();
     }
 
     public static String reversedString(String original) {

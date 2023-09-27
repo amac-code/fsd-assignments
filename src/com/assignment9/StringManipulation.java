@@ -38,5 +38,6 @@ public class StringManipulation {
         } else {
             System.out.println("Does not contain 'Java'");
         }
+        sc.close();
     }
 }

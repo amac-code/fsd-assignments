@@ -12,6 +12,7 @@ public class Main {
          } else if (num%5==0) {
              System.out.println("Buzz");
          }
+         sc.close();
 
     }
 }
