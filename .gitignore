@@ -1,29 +1,47 @@
-### IntelliJ IDEA ###
+# ---- Java & Build System ----
+*.class
+*.war
+*.ear
+*.jar
+target/
+build/
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# ---- IDEs and Editors ----
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Eclipse
+*.project
+*.settings/
+*.classpath
 
-### VS Code ###
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# VS Code
 .vscode/
 
-### Mac OS ###
+# ---- Logging & Monitoring ----
+*.log
+
+# ---- OS Specific ----
 .DS_Store
+Thumbs.db
+
+# ---- Workspace XML Files ----
+# Exclude all XML files
+*.xml
+
+# ---- Advanced: Negate previous rules (include specific XMLs if needed) ----
+# !specific-config.xml
+
+# ---- Advanced: Custom Rules ----
+
