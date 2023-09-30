@@ -34,7 +34,6 @@ public class Usernames {
             String name = sc.nextLine();
             usernames.add(name);
         }
-        sc.close();
     }
 
     public static String checkName(ArrayList<String> usernames, String searchName) {
